@@ -1,22 +1,23 @@
 {
-    "compilerOptions": {
-      "composite": true,
-      "declaration": true,
-      "declarationMap": true,
-      "incremental": true,
-      "isolatedModules": true,
-      "esModuleInterop": true,
-      "lib": ["ES2020", "DOM"],
-      "moduleResolution": "node",
-      "sourceMap": true,
-      "skipLibCheck": true,
-      "strict": true,
-      "noUncheckedIndexedAccess": true,
-      "noErrorTruncation": true,
-      // needed to import Contentlayer package version
-      "resolveJsonModule": true,
-      "target": "ES2020",
-      "plugins": [{ "transform": "@effect-ts/tracing-plugin" }],
-    }
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noErrorTruncation": true,
+    // needed to import Contentlayer package version
+    "resolveJsonModule": true,
+    "lib": ["ESNext"],
+    "target": "esnext",
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "experimentalDecorators": true,
+    "plugins": [{ "transform": "@effect-ts/tracing-plugin" }]
   }
-  
+}
